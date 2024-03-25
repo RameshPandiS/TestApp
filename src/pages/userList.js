@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react"
 import SimpleReactValidator from 'simple-react-validator';
 import axios from 'axios';
-import { Card } from "../components/card";
+
 
 export const UserList = () => {
 

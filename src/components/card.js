@@ -11,14 +11,7 @@ export const Card = () => {
             phone: ""
         }
     ])
-    const [userForm, setUserForm] = useState({
-            name: "",
-            age: "",
-            email: "",
-            phone: ""
-        })
-
-
+    
 
         useEffect(() => {
             axios.get('https://jsonplaceholder.typicode.com/users').then((data) => {

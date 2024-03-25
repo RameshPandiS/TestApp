@@ -5,7 +5,7 @@ import { UserPage } from "./pages/user";
 import { LoginPage } from "./pages/login";
 import { Card } from './components/card';
 
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Dashboard } from './pages/Dashboard';
 import { UserList } from './pages/userList';
 import { Header } from './components/header';
